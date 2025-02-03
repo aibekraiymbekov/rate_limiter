@@ -15,7 +15,7 @@ class RateLimitConfig(BaseModel):
     time_window: int = Field(gt=0, description="Time window in seconds")
 
 DEFAULT_PROVIDER_CONFIGS = {
-    Provider.CONNEXPAY: RateLimitConfig(rate_limit=5, time_window=30),
+    Provider.CONNEXPAY: RateLimitConfig(rate_limit=100, time_window=30),
     Provider.QOLO: RateLimitConfig(rate_limit=200, time_window=60)
 }
 
