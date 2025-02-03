@@ -11,7 +11,7 @@ Rate limiter сервис, поддерживающий различные пр�
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <repository-url>
+git clone git@github.com:aibekraiymbekov/rate_limiter.git
 cd rate-limiter
 ```
 
